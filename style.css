@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body
+{
+    margin: 0px;
+}
+.main-box1{
+    background-color: #34373E;
+    width: auto;
+}
+ .header-margin{
+    margin-left: 100px;
+}
+
+.main-menu{
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: unset;
+    gap: 55px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 100px;
+}
+.cashify{
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 2.16px;
+}
+.menu-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 190px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    gap: 40px;
+}
+.headline
+{
+    font-size: 49px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    font-family: 'Abril Fatface', cursive;
+}
+.underline
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.header_buttons{
+    font-family: 'Lato', sans-serif;
+    background-color: #D84B4B;
+    border-radius: 32px;
+    width: 160px;
+    padding: 17px;
+    margin: 0.5rem 0px;
+}
+#see_demo
+{
+    background: #6A8BD6;
+}
+.component1
+{
+    display: flex;
+    flex-direction: column;
+}
+.description
+{
+    display: flex;
+    margin-top: 5rem;       
+}
+
+.main-box2
+{
+    display: flex;
+    justify-content: unset;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+}
+.header
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #34373E;
+}
+.header2{
+    font-size: 15px;
+    color: #6C7280;
+    margin-top: -20px;
+    
+}
+.icons{
+    display: flex;
+    justify-content: unset;
+    align-items: center;
+    text-align: center;
+    gap: 272px;
+    min-width: 1061px;
+    max-width: 1061px;
+    margin-top: 50px;
+    margin-right: 166px;
+    margin-left: 138px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.txt{
+    font-size: 20px;
+    color: #34373E;
+    font-weight: bold;
+    
+}
+.txt2{
+    font-size: 16px;
+   
+}
+.dashed-line{
+    border-top: 1px dashed #bbb;
+    width: auto;
+    max-width: 1200px;
+    margin-top: 107px;
+}
+.main-box3{
+    display: flex;
+    justify-content: unset;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 88px;
+}
+.middle{
+    font-size: 40px;
+    color: #34373E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: auto;
+}
+.mid-underline{
+    font-size: 18px;
+    color: #6C7280;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding-top: 10px;
+    margin: auto;
+}
+.prices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-top: 66px;
+}
+
+
+.free{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin: auto;
+    color: #34373E;
+    width: auto;
+    max-width: 118px;
+    text-align: center;
+    padding-top: 29px;
+    line-height: 27px;
+}
+.price1{
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 28px;
+    
+}
+.buy-now{
+    margin: auto;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #D84B4B;
+    border-radius: 30px;
+    min-width: 118px;
+    max-width: 118px;
+    height: 37px;
+    margin-left: 57px;
+    margin-top: 32px;
+    border: hidden;
+}
+.card_wrapper{
+    min-width: 232px;
+    max-width: 232px;
+    height: 370px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 3px #0000003C;  
+}
+.card_wrapper
+{
+    cursor: pointer;
+}
+.card_wrapper:hover{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 29px #0000003C;
+    height: 390px;
+}
+.card_wrapper:hover .card{
+    background: transparent linear-gradient(1deg, #6A8BD6 0%, #84A5F2 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card{
+    text-align: center;
+    background: transparent linear-gradient(2deg, #F7F7F7 0%, #F5F5F5 100%);
+    padding-top: 20px;
+    padding-bottom: 21px;
+    margin-top: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #34373E;
+    font-weight: bold;
+}
+.dashed-line2{
+    border-top: 1px dashed #bbb;
+    width: auto;
+    max-width: 1200px;
+    margin-top: 100px;
+
+}
+.txt-wrapper p{
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p{
+    font-size: 40px;
+    padding-top: 113px;
+}
+.p2{
+    color: #6C7280;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 2px;
+}
+.lorem{
+  padding-top: 37px;
+  width: auto;
+  min-width: 346px;
+  max-width: 346px;
+  font-size: 15px;
+  color: #6C7280;
+  line-height: 22px;
+  padding-top: 37px;
+  padding-left: 2px;
+}
+.mail-box{
+    background: #FAFAFA;
+    border-radius: 2px;
+    border: 1px solid #DDDDDD;
+    width: auto;
+    min-width: 410px;
+    max-width: 410px;
+    margin-left: 167px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+.mail{
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    color: #9DA5B7;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 23px;
+    padding-bottom: 20px;
+}
+.message{
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    color: #9DA5B7;
+    font-size: 14px;
+    padding-top: 23px;
+    padding-left: 20px;
+    padding-bottom: 120px;
+}
+.send{
+    background: #6A8BD6;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 14px;
+    border: hidden;
+    width: auto;
+    height: 60px;
+    color: #FFFFFF;
+}
+.main-box4{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+}
+.cashify
+{
+    cursor: pointer;
+}
+.footer
+{
+    font-family: 'Lato', sans-serif;
+    background: #D84B4B;
+    width: 100%;
+}
+.footer-items
+{
+    display: flex;
+    padding: 5rem 0rem;        
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.cashify-footer
+{
+    margin-top: 0rem;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 2.16px;
+}
+.opt
+{
+    color: #fff;
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 768px){
+        
+    .header_text_wrapper
+    {
+        text-align: center;
+    }
+    .header-margin{
+        margin-left: 0px;
+    }
+    .description
+    {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .buttons
+    {
+        flex-wrap: nowrap;
+        justify-content: center
+    }
+    .phone_image
+    {
+        width: 30rem;
+    }
+    .menu-line
+    {
+        flex-direction: column;
+        align-content: center;
+    }
+    .main-menu{
+        margin-right: 0px;
+        padding-top: 15px;
+    }
+    .middle{
+        text-align: center;
+    }
+    .icons
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .prices
+    {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .txt2{
+        width: 166px;
+    }
+    .main-box4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    .mail-box{
+        margin-left: 0px;
+        margin-top: 50px;
+        max-width: 340px;
+        min-width: 340px;
+    }
+    .footer-items
+    {
+        flex-direction: column;
+        align-items: center
+    }
+
+}
+
+    
+
